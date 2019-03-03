@@ -14,20 +14,74 @@ A.
 
 
 What is IDE?
-A.
-What are the IDEs available in the market to support java?
-Explain the entire java life cycle.
-what is class?
-What is object?
-What is the entry point of an application?
-Why main is static?
+Answer: An IDE stands Integrated Development Environment is a software suite that consolidates the
+   basic tools developers need to write and test software. Typically, an IDE contains a code editor, a
+   compiler or interpreter and a debugger that the developer accesses through a single graphical user
+   interface (GUI).
+
+Answer: Eclipse, Intellij Idea, NetBeans, AndroidStudio, Enide Studio 2014, BlueJ, jEdit,
+   jGRASP, JSource, JDeveloper, DrJava etc.
+
+   Explain the entire java life cycle.
+   Answer: Programmer use any text editor to create high level Java text file.This file is saved as a
+        .java file on the disk.Then compile this text file using the Java compiler, which result
+        in a .classfile being created on the disk. The .class file contains the bytecodes.
+         The file is then loaded into memory by the class loader. The bytecode verifier confirms that
+         the bytecodes are valid and not hostile. Finally, the JVM reads the bytecodes in memory and
+         translates them into machine code
+
+   what is class?
+   Answer: Class is a blueprint from which individual objects are created.
+        Classes have data and methods, data represents state and methods behavior. Class is just a logical framework.
+        So, a class is a template for an object and object is an instance of a class
+
+   What is object?
+   Answer: Object is an instance of the class and Object is the physical reality.
+
+   What is the entry point of an application?
+   Answer: Main method is the entry point of an application.
+
+   Why main is static?
+   In order to call a method need to have a object of that method. As main method
+   is gateway to the java application JVM need to enter into main method in order
+   to execute. Static key word let JVM to call main method without  object.
+
 Which class is the superclass of all classes?
+
 What is difference between path and classpath variables?
+
 What is the difference between an Interface and Abstract class?
+Answer:  A class that contains one or more abstract methods , and therefore can never
+   be instantiated. Abstract classes are defined so that other classes can
+   extend them and make them concrete by implementing the abstract methods.
+    An interface in the Java programming language is an abstract type
+   that is used to specify a behaviour that classes must implement.
+   Interfaces are declared using the interface keyword, and may only
+   contain method signature and constant declarations(variable declarations that
+   are declared to be both static and final).
+
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+Answer: No we can not create object in Interface and Abstract class.
+   Interface contains methods to be implemented, in abstract class we can implement some of them
+   and can create more new methods as required keeping at least one abstract method.
+   later abstract class can be extended and create and concrete class where there will be no
+   abstract methods.
+
 what is Access Specifier?
+ Access Specifier is to determine the visibility of methods and variables.
+
 What is OOP ? Define each feature of java OOP.
+Answer: OOP. Stands for "Object-Oriented Programming." Refers to a programming methodology based on
+          objects, instead of just functions and procedures. These objects are organized into classes,
+          which allow individual objects to be group together.
+          Features of java OOP:
+          1. Encapsulation
+          2. Inheritance
+          3. Polymorphism
+          4. Abstraction
+
 What is Java Package and which package is imported by default?
+
 What is API? Name list of API that you have used so far.
 Does java support multiple inheritance, explain why or why not?
 What is method overloading and when it happens?
